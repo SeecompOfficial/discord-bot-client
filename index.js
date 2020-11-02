@@ -15,5 +15,5 @@ app.use("*", async (req, res) => {
 });
 
 app.listen(3000, () => {
-	console.log("server listening on :3000");
+	console.log("The server is listening on :3000");
 });
